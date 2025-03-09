@@ -1,7 +1,7 @@
 import React from "react";
  
 import Ai from '../../public/Ai.png'
-
+import Google from '../../public/google.png'
 
 function PortFolio() {
   const cardItem = [
@@ -10,6 +10,11 @@ function PortFolio() {
       id:1,
       logo: Ai,
       name: "Ai",
+          },
+    {
+      id:2,
+      logo: Google,
+      name: "Google",
           }
   ];
 
@@ -46,9 +51,12 @@ function PortFolio() {
                 development.
               </p>
               <div className="flex justify-around mt-6">
-                <button className="bg-indigo-500 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded transition duration-300"> <a href="https://ai-chatbot-q4f0.onrender.com">Live Demo</a></button>
-                 
-              </div>
+  <button className="bg-indigo-500 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded transition duration-300">
+    <a href="https://ai-chatbot-q4f0.onrender.com" target="_blank" rel="noopener noreferrer">
+      Live Demo
+    </a>
+  </button>
+</div>
             </div>
           ))}
         </div>
