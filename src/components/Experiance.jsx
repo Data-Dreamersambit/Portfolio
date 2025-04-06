@@ -3,6 +3,9 @@ import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
 import javascript from "../../public/javascript.png";
+import reactjs from '../../public/reactjs.png'
+import node from '../../public/node.png'
+import mongodb from '../../public/mongodb.jpg'
  
 
 function Experiance() {
@@ -26,6 +29,21 @@ function Experiance() {
       id: 4,
       logo: javascript,
       name: "JavaScript",
+    },
+    {
+      id: 5,
+      logo: reactjs,
+      name: "React.js",
+    },
+    {
+      id: 6,
+      logo: node,
+      name: "Node.js",
+    },
+    {
+      id: 7,
+      logo: mongodb,
+      name: "MongoDB",
     },
     
   ];
